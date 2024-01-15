@@ -149,11 +149,11 @@ const Home = () => {
                                                 </tspan>
                                             </text>
                                             <text x="80" y="280">
-                                                <tspan>&nbsp;&nbsp;&nbsp;my</tspan>
+                                                <tspan>&nbsp;&nbsp;&nbsp;my port</tspan>
                                             </text>
                                             <text x="-190" y="440">
                                                 <tspan>
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;port
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                 </tspan>
                                             </text>
                                         </clipPath>
