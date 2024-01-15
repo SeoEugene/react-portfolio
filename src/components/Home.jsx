@@ -145,11 +145,11 @@ const Home = () => {
                                             transform="translate(-2 0)">
                                             <text x="-170" y="135">
                                                 <tspan>
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;welcome,
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;welcome,
                                                 </tspan>
                                             </text>
                                             <text x="80" y="280">
-                                                <tspan>&nbsp;my port</tspan>
+                                                <tspan>my port</tspan>
                                             </text>
                                             <text x="-190" y="440">
                                                 <tspan>
