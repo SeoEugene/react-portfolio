@@ -143,12 +143,12 @@ const Home = () => {
                                         </g>
                                         <clipPath id="moon_txt-mask" class="moon__txt"
                                             transform="translate(-2 0)">
-                                            <text x="-170" y="135">
+                                            <text x="-160" y="135">
                                                 <tspan>
                                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;welcome,
                                                 </tspan>
                                             </text>
-                                            <text x="80" y="280">
+                                            <text x="50" y="280">
                                                 <tspan>my port</tspan>
                                             </text>
                                             <text x="-190" y="440">
