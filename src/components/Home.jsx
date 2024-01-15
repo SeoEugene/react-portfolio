@@ -135,9 +135,10 @@ const Home = () => {
                                                 xlinkHref="https://s3-us-west-2.amazonaws.com/s.cdpn.io/61488/moon-01-adjusted-02.jpg" />
                                         </g>
                                         <g class="moon__txt-bg" fill="#D5CEC6">
-                                            <rect y="40" width="1000" height="76" />
-                                            <rect y="180" width="612" height="76" />
-                                            <rect y="320" width="612" height="76" />
+                                            <rect y="76" width="1000" height="76" />
+                                            <rect y="230" width="612" height="76" />
+                                            <rect y="383" width="612" height="76" />
+                                            <rect y="460" width="612" height="76" />
                                             {/* <rect y="460" width="612" height="76" /> */}
                                         </g>
                                         <clipPath id="moon_txt-mask" class="moon__txt"
