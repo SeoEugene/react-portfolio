@@ -86,15 +86,15 @@ const PortDataContext = [
     },
     {
         porttitle: "Animation Portfolio",
-        porttag: "#JAVA #Spring #Oracle #Spring Boot #JDBC #EL #JSP #Ajax #Mybatis",
-        portperiod: "",
+        porttag: "#Vite #GSAP #Portfolio",
+        portperiod: "2023년 9월 23일",
         porttype: "Personal Project",
-        portstack: ["JAVA (JDK1.8.0_281)", "Oracle 11g", "Spring Boot 2.4.3", " Mybatis 3.4.1", "BootStrap 3.4.1", "jQuery", "JDBC", "JSP", "Ajax"],
-        portfunction: ["로그인 및 회원가입", "도서 정보, 목록", "장바구니", "주문하기", "관리자 도서 등록"],
-        portservice: "클라이언트와 서버를 구성해 도서 판매 사이트를 만들어보았습니다. 회원가입과 로그인이 가능하고 관리자가 편리하게 운영할 수 있도록 관리자 계정을 만들어 도서 등록을 하면 도서가 등록이 됩니다. 회원은 도서를 장바구니에 넣고 구매할 수 있습니다.",
+        portstack: ["Vite.js", "GSAP"],
+        portfunction: ["여러가지 애니메이션 기능을 이용한 효과"],
+        portservice: "Vite와 애니메이션 라이브러리인 GSAP를 이용해 동적인 포트폴리오 사이트를 제작했습니다.",
         portImage: "/image/AniPort.png",
-        code: "https://github.com/SeoEugene/next-project",
-        site: "https://next-project-mh9ttr9d0-eugenes-projects-9669a152.vercel.app/"
+        code: "https://github.com/SeoEugene/vite-project",
+        site: "https://eu-vite-project.netlify.app/"
     },
 ]
 
