@@ -22,6 +22,15 @@
     font-size: 80px;
 }
 
+/* .contact__left:hover {
+    background-image: url(/public/image/main.jpg);
+
+} */
+
+/* .contact__left:hover em {
+    display: none;
+} */
+
 .contact__right {
     width: 50%;
     display: flex;

@@ -4,21 +4,21 @@ const EffertDataContext = [
         desc: "기본적인 javascript의 문자열 함수를 이용해 활용할 수 있는 검색기능을 구현해보았습니다. 검색기능에 사용한 함수로는 indexOf(), search(), include(), charAt(), find(), filter(), sort(), reverse()이 있으며, 라이브러리를 사용하지 않은 순수 자바스크립트로 기능을 만들었습니다.",
         stack: [],
         effectImage: "/image/search.png",
-        url: ""
+        url: "https://seoeugene.github.io/webs2024/javascript/search/"
     },
     {
         title: "Animation",
         desc: "Web animation 구현에 사용하는 GSAP 라이브러리를 사용하여 간단하지만 효과적인 애니메이션을 만들어보았습니다. 요소를 이동시키는 gsap.to(), gsap.from() 함수, 화면을 고정 시키는 gsap.utils.ScrollTrigger.create()의 pin()을 적극적으로 활용해 이질감, 텍스트 이동, 화면 전환 애니메이션을 이용했습니다. 기본 javascript 애니메이션으로는 화면 슬라이드, 마우스 이펙트를 이용해 사이트가 동적으로 보일 수 있는 효과를 줍니다.",
         stack: [],
         effectImage: "/image/animation.jpg",
-        url: ""
+        url: "https://seoeugene.github.io/webs2024/javascript/gsap/gsap12.html"
     },
     {
         title: "Data request",
         desc: "변수를 이용한 데이터 출력 방법과 XMLHttpRequest, fetch(), map(), jQuery의 ajax, axios 다양한 방법으로 외부 데이터 파일을 가져와 출력하는 방법에 대해 공부했습니다. 이를 바탕으로 최종적으로 API 데이터를 활용해 여러 데이터를 사용해 볼 수 있었습니다.",
         stack: [],
         effectImage: "/image/data.png",
-        url: ""
+        url: "https://seoeugene.github.io/webs2024/javascript/quiz/quizEffect07.html"
     },
     {
         title: "Join and Login",

@@ -27,6 +27,8 @@ const Port = () => {
                     <li className={id === "4" ? "active" : ""}><Link to="/port/4">IV. Joy Playground</Link></li>
                     <li className={id === "5" ? "active" : ""}><Link to="/port/5">V. English Diary</Link></li>
                     <li className={id === "6" ? "active" : ""}><Link to="/port/6">VI. Rolling Paper</Link></li>
+                    <li className={id === "7" ? "active" : ""}><Link to="/port/7">VII. Spring Book store</Link></li>
+                    <li className={id === "8" ? "active" : ""}><Link to="/port/8">VIII. Animation Portfolio</Link></li>
                 </ul>
                 <div className="file">
                     <h1>{porttitle}<span>k</span></h1>
@@ -39,6 +41,8 @@ const Port = () => {
                                 {id === "4" && <img src={portImage} alt={porttitle} />}
                                 {id === "5" && <img src={portImage} alt={porttitle} />}
                                 {id === "6" && <img src={portImage} alt={porttitle} />}
+                                {id === "7" && <img src={portImage} alt={porttitle} />}
+                                {id === "8" && <img src={portImage} alt={porttitle} />}
                             </div>
 
                             <div className="text">
