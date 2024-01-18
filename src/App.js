@@ -4,12 +4,14 @@ import gsap from 'gsap';
 
 // 파일
 import Header from './components/Layout/Header'
-import Main from './components/Main'
+import Main from './components/Main';
 
 import './assets/css/style.css'
 
-const App = () => {
+// 애니메이션
+import { AnimatePresence } from 'framer-motion'
 
+const App = () => {
   const [isLeftPanelVisible, setIsLeftPanelVisible] = useState(false);
   const [isRightPanelVisible, setIsRightPanelVisible] = useState(false);
 
@@ -35,17 +37,23 @@ const App = () => {
     }
   };
 
-
-
   return (
     <BrowserRouter>
       <Header
         onNavButtonClick={handleMenuClick}
         onCommentButtonClick={handleCommentClick}
       />
-      <Main />
+      <AnimatedRoutes />
     </BrowserRouter>
   )
+}
+
+function AnimatedRoutes() {
+  return (
+    <AnimatePresence mode='wait'>
+      <Main />
+    </AnimatePresence>
+  );
 }
 
 export default App

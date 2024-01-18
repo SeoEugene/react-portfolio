@@ -186,7 +186,7 @@ body {
 }
 
 #main .main-cont .mc-inner .mc-inner-center {
-    height: calc(100% - 160px);
+    height: calc(100vh - 230px);
     display: flex;
     align-items: center;
     justify-content: center;

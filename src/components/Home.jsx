@@ -108,17 +108,18 @@ const Home = () => {
     }, []);
 
     return (
-        <div class="mc-inner-center">
-            <div class="circle-wrap">
-                <div class="circle1">
-                    <div class="circle1-1">
-                        <div class="circle1-1-1">
-                            <div class="container1_1">
-                                <div class="moon">
-                                    <svg class="moon__svg" xmlns="http://www.w3.org/2000/svg"
-                                        xmlnsXlink="http://www.w3.org/1999/xlink" viewbox="0 0 611 611">
+
+        <div className="mc-inner-center">
+            <div className="circle-wrap">
+                <div className="circle1">
+                    <div className="circle1-1">
+                        <div className="circle1-1-1">
+                            <div className="container1_1">
+                                <div className="moon">
+                                    <svg className="moon__svg" xmlns="http://www.w3.org/2000/svg"
+                                        xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 611 611">
                                         <defs>
-                                            <clipPath id="clip-path" class="moon__svg-rects">
+                                            <clipPath id="clip-path" className="moon__svg-rects">
                                                 <rect id="top" width="611" height="72" />
                                                 <rect y="77" width="611" height="72" />
                                                 <rect y="154" width="611" height="72" />
@@ -129,19 +130,19 @@ const Home = () => {
                                                 <rect y="539" width="611" height="72" />
                                             </clipPath>
                                         </defs>
-                                        <g clip-path="url(#clip-path)">
-                                            <image class="moon__img" width="1024" height="1024"
+                                        <g clipPath="url(#clip-path)">
+                                            <image className="moon__img" width="1024" height="1024"
                                                 transform="translate(-271 -188) scale(0.98)"
                                                 xlinkHref="https://s3-us-west-2.amazonaws.com/s.cdpn.io/61488/moon-01-adjusted-02.jpg" />
                                         </g>
-                                        <g class="moon__txt-bg" fill="#D5CEC6">
+                                        <g className="moon__txt-bg" fill="#D5CEC6">
                                             <rect y="76" width="1000" height="76" />
                                             <rect y="230" width="612" height="76" />
                                             <rect y="383" width="612" height="76" />
                                             <rect y="460" width="612" height="76" />
                                             {/* <rect y="460" width="612" height="76" /> */}
                                         </g>
-                                        <clipPath id="moon_txt-mask" class="moon__txt"
+                                        <clipPath id="moon_txt-mask" className="moon__txt"
                                             transform="translate(-2 0)">
                                             <text x="-160" y="135">
                                                 <tspan>
@@ -153,35 +154,36 @@ const Home = () => {
                                             </text>
                                             <text x="-190" y="440">
                                                 <tspan>
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
                                                 </tspan>
                                             </text>
                                         </clipPath>
-                                        <g clip-path="url(#moon_txt-mask)">
-                                            <image class="moon__img" width="1024" height="1024"
+                                        <g clipPath="url(#moon_txt-mask)">
+                                            <image className="moon__img" width="1024" height="1024"
                                                 transform="translate(-271 -188) scale(0.98)"
                                                 xlinkHref="https://s3-us-west-2.amazonaws.com/s.cdpn.io/61488/moon-01-adjusted-02.jpg" />
-                                            <rect class="moon__txt-overlay" width="611" height="611"></rect>
+                                            <rect className="moon__txt-overlay" width="611" height="611"></rect>
                                         </g>
                                     </svg>
                                 </div>
-                                <div class="container__base"></div>
+                                <div className="container__base"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="circle2">
-                    <div class="circle2_text">
+                <div className="circle2">
+                    <div className="circle2_text">
                     </div>
-                    <div class="circle2-1">
-                        <div class="circle2-1-1">
-                            <div class="cImg"></div>
+                    <div className="circle2-1">
+                        <div className="circle2-1-1">
+                            <div className="cImg"></div>
                             <div id="canvas"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     )
 }
 
