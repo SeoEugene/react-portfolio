@@ -1,21 +1,50 @@
-## install
-`npx create-react-app .`
-`npm install react-router-dom`
-`npm install gsap`
-`npm install react-use`
-`npm install axios`
-`npm i react-router-dom`
-`npm install framer-motion`
+# React Portfolio (2024)
 
+> 입사 지원 때 쓴 첫 웹 포트폴리오. 배우고 만든 사이트와 학습 기록을 React로 모았습니다.
 
+**[사이트 바로가기](https://react-portfolio-nine-pi.vercel.app)** · **[현재 포트폴리오](https://seoeugene.github.io)**
 
+| 항목 | 내용 |
+|---|---|
+| 기간 | 2023.12 – 2024.01 |
+| 형태 | 개인 프로젝트 (공공 데이터를 활용한 Node.js 전문가 과정) |
+| 역할 | 디자인(Figma), 개발, 배포 |
 
-## error
-`export 'Switch' (imported as 'Switch') was not found in 'react-router-dom'`
+> 지금은 새 포트폴리오 **[seoeugene.github.io](https://seoeugene.github.io)** 를 씁니다. 이 저장소는 입사 전 기록으로 남겨 둡니다.
 
-해결방법:
-Switch를 사용하다 BrowserRouter로 바꾸어줌
+## 구성
+| 화면 | 내용 |
+|---|---|
+| Main | 소개와 첫 화면 애니메이션 |
+| About | 프로필, 학력, 교육, 자격증, 기술 |
+| Port | 프로젝트 목록과 상세 (기간, 형태, 기술, 기능, 코드·사이트 링크) |
+| Effect | 학습 기록 (검색, 애니메이션, 데이터 요청, 로그인, 게시판, 댓글) |
+| Contact | 연락처와 방명록 댓글 |
 
+## 주요 기능
+- **화면 전환 애니메이션**: framer-motion과 GSAP으로 페이지와 요소가 움직이며 나타납니다.
+- **데이터 분리**: 프로젝트와 학습 기록을 데이터 파일(`PortDataContext`, `EffertDataContext`)로 분리해 화면 코드를 고치지 않고 내용을 바꿀 수 있게 했습니다.
+- **방명록 댓글**: axios로 댓글 작성·목록 API를 호출합니다. 개발 중에는 `setupProxy.js`로 로컬 Node 서버(5050 포트)에 연결했습니다.
 
-`Uncaught Error: useLocation() may be used only in the context of a <Router> component.`
- useLocation 훅이 <Router> 컴포넌트의 컨텍스트 외부에서 사용되었을 때 발생합니다. useLocation 훅은 반드시 <BrowserRouter> (또는 다른 라우터 컴포넌트) 안에서 호출되어야 합니다.
+## 기술 스택
+| 구분 | 기술 |
+|---|---|
+| 프레임워크 | React 18, React Router |
+| 애니메이션 | framer-motion, GSAP, react-use |
+| 통신 | axios, http-proxy-middleware |
+| 디자인·배포 | Figma, Vercel |
+
+## 실행 방법
+```bash
+npm install
+npm start
+```
+
+## 돌아보며
+- 방명록 댓글은 로컬 Node 서버를 전제로 만들어서, 서버를 함께 배포하지 않은 Vercel 사이트에서는 동작하지 않습니다. 화면과 서버를 함께 배포하는 구성을 처음부터 생각했어야 했습니다.
+- 처음 공개할 때 생년월일, 주소, 자격증 번호까지 올렸습니다. 2026년에 개인정보를 정리하면서, 공개 저장소에 무엇을 올릴지 먼저 정하는 습관의 중요성을 배웠습니다.
+
+설치 과정과 오류 해결 기록은 [docs/개발노트.md](docs/개발노트.md)에 있습니다.
+
+---
+2024년 교육 과정에서 만든 프로젝트이며, 2026년에 README와 개인정보를 정리했습니다.

@@ -12,8 +12,7 @@ const About = () => {
                         <h3>Profile <em>i</em><em>i</em><em>i</em> </h3>
                         <ul>
                             <li><em>name</em><span>Seo Eugene</span></li>
-                            <li><em>Age</em><span>1997.03.22(26)</span></li>
-                            <li><em>Address</em><span>경기도 안산시</span></li>
+                            <li><em>Portfolio</em><span>seoeugene.github.io</span></li>
                             <li><em>Personality</em><span>Extraverted, Intuitive, Thinking, Perceiving
                                 (ENTP)</span></li>
                         </ul>
@@ -36,11 +35,11 @@ const About = () => {
 
                         <h4>Certificate</h4>
                         <ul>
-                            <li>정보처리 기능사(2021) - 22211100622W</li>
-                            <li>정보처리 산업기사(2021) - 21402105464E</li>
-                            <li>웹 디자인 기능사(2023) - 23404102305C</li>
-                            <li>SQL 개발자(SQLD)(2021) - SQLD-042007075</li>
-                            <li>리눅스 마스터 2급(2021) - LMS-2102-004871</li>
+                            <li>정보처리 기능사(2021)</li>
+                            <li>정보처리 산업기사(2022)</li>
+                            <li>웹 디자인 기능사(2023)</li>
+                            <li>SQL 개발자(SQLD)(2021)</li>
+                            <li>리눅스 마스터 2급(2021)</li>
                         </ul>
 
                         <h4>Development</h4>
